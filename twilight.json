@@ -806,6 +806,13 @@
                     ]
                 }
             ]
+        },
+        {
+            "key": "7c45f072-64bf-48ce-bbd4-2fab31bc551f",
+            "title": "custom-slider",
+            "icon": "sicon-store",
+            "path": "home.custom-slider",
+            "fields": []
         }
     ],
     "support_url": "https://jamila.com",
