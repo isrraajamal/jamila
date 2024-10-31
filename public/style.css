@@ -9,7 +9,10 @@
 body {
   font-family: "Tajawal" !important;
   background-color: #f5f5f5 !important;
-  direction: rtl!important;
+  direction: rtl !important;
+}
+.navbar-brand {
+  margin-right: 0px !important;
 }
 .main-menu li > a {
   font-family: "Tajawal" !important;
@@ -52,34 +55,78 @@ header i:hover {
   font-size: 16px !important;
   font-weight: 500 !important;
   color: #7469b6 !important;
-  letter-spacing: 0!important;
-  word-spacing: 0!important;
-  direction: rtl!important;
-  unicode-bidi: embed!important;
+  letter-spacing: 0 !important;
+  word-spacing: 0 !important;
+  direction: rtl !important;
+  unicode-bidi: embed !important;
 }
-.custom-copyright{
+.custom-copyright {
   font-family: "Tajawal" !important;
   font-size: 20px !important;
   font-weight: 500 !important;
   color: #7469b6 !important;
   line-height: 24px;
 }
-.py-custom{
-    padding-top: 40px;
+.py-custom {
+  padding-top: 40px;
 }
-.py-custom2{
-    padding-bottom: 40px;
+.py-custom2 {
+  padding-bottom: 40px;
 }
-.s-social-link a{
-    fill: #fff;
-    background: #7469b6;
-    color:#fff;
-    border: 1px solid #7469b6;
+.s-social-link a {
+  fill: #fff;
+  background: #7469b6;
+  color: #fff;
+  border: 1px solid #7469b6;
 }
 .s-social-link a svg {
-    width:18px!important;
-    height:18px!important;
+  width: 18px !important;
+  height: 18px !important;
 }
 .s-payments-list {
-    gap: 1rem!important;
+  gap: 1rem !important;
+}
+.bg-div {
+  background-color: #7469b6;
+  width: 1280px;
+  height: 412px;
+  border-radius: 8px;
+  /*padding: 60px 30px;
+      */
+  position: relative;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.carousel-indicators li {
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-right: 5px !important;
+  margin-left: 5px !important;
+  background-color: #c1bddc;
+}
+.carousel-indicators {
+  position: absolute;
+  bottom: -10%;
+}
+.carousel-indicators li.active {
+  background-color: #7469b6;
+}
+.bg-control {
+  background: #dbd9e8;
+  color: #fff;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  width: 5% !important;
 }
