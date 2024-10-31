@@ -871,8 +871,8 @@
                             "value": null,
                             "multilanguage": false,
                             "required": false,
-                            "minLength": 6,
-                            "maxLength": 30
+                            "minLength": null,
+                            "maxLength": null
                         },
                         {
                             "id": "custom_slider.text2",
@@ -886,8 +886,8 @@
                             "value": null,
                             "multilanguage": false,
                             "required": false,
-                            "minLength": 6,
-                            "maxLength": 30
+                            "minLength": null,
+                            "maxLength": null
                         },
                         {
                             "id": "custom_slider.text3",
@@ -901,8 +901,8 @@
                             "value": null,
                             "multilanguage": false,
                             "required": false,
-                            "minLength": 6,
-                            "maxLength": 30
+                            "minLength": null,
+                            "maxLength": null
                         }
                     ],
                     "value": [],
