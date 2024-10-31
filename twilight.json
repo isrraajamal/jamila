@@ -812,7 +812,74 @@
             "title": "custom-slider",
             "icon": "sicon-store",
             "path": "home.custom-slider",
-            "fields": []
+            "fields": [
+                {
+                    "id": "custom_slider",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "Collection",
+                    "description": null,
+                    "labelHTML": null,
+                    "item_label": null,
+                    "icon": "sicon-list-add",
+                    "fields": [
+                        {
+                            "id": "custom_slider.image",
+                            "type": "string",
+                            "format": "image",
+                            "label": "Image",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "e.g. https://hostname.com/image.png",
+                            "icon": "sicon-image",
+                            "value": null,
+                            "required": true
+                        },
+                        {
+                            "id": "custom_slider.image2",
+                            "type": "string",
+                            "format": "image",
+                            "label": "Image 1",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "e.g. https://hostname.com/image.png",
+                            "icon": "sicon-image",
+                            "value": null,
+                            "required": false
+                        },
+                        {
+                            "id": "custom_slider.image3",
+                            "type": "string",
+                            "format": "image",
+                            "label": "Image 2",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "e.g. https://hostname.com/image.png",
+                            "icon": "sicon-image",
+                            "value": null,
+                            "required": false
+                        },
+                        {
+                            "id": "custom_slider.text",
+                            "type": "string",
+                            "format": "textarea",
+                            "label": "Text Area",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "Your text here",
+                            "icon": "sicon-typography",
+                            "value": null,
+                            "multilanguage": false,
+                            "required": false,
+                            "minLength": null,
+                            "maxLength": null
+                        }
+                    ],
+                    "value": [],
+                    "minLength": 1,
+                    "maxLength": 5
+                }
+            ]
         }
     ],
     "support_url": "https://jamila.com",
